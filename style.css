@@ -283,6 +283,11 @@ a:hover {
     padding-left: 0;
 }
 
+blockquote {
+    border-left: inherit;
+    color: inherit;
+}
+
 #bloc-1-hero h1 {
     font-size: 32px;
 }
@@ -780,7 +785,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #1A1A1A!important;
+    color: #0D0D0D!important;
 }
 
 .btn-atomic-tangerine:hover {
