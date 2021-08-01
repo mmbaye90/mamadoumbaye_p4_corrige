@@ -3,14 +3,12 @@ body {
     padding: 0;
     background: #FFF;
     overflow-x: hidden;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
 }
 
 a,
 button {
-    transition: all .3s ease-in-out;
-    outline: none!important;
+    transition: all 0.3s ease-in-out;
+    outline: none !important;
     text-decoration: none;
 }
 
@@ -25,7 +23,7 @@ a:hover {
     bottom: 0;
     width: 100%;
     z-index: 100000;
-    background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
+    background: url("img/pageload-spinner.gif") center center no-repeat #FFFFFF;
 }
 
 .bloc {
@@ -33,9 +31,6 @@ a:hover {
     clear: both;
     background: 50% 50% no-repeat;
     padding: 0 50px;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
     position: relative;
 }
@@ -67,10 +62,7 @@ a:hover {
 .bg-tr-edge,
 .bg-br-edge,
 .bg-repeat {
-    -webkit-background-size: auto!important;
-    -moz-background-size: auto!important;
-    -o-background-size: auto!important;
-    background-size: auto!important;
+    background-size: auto !important;
 }
 
 .bg-repeat {
@@ -101,12 +93,12 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: rgb(255, 255, 255, 0.7);
     background: black;
 }
 
 .d-bloc button:hover {
-    color: rgba(255, 255, 255, .9);
+    color: rgb(255, 255, 255, 0.9);
 }
 
 .d-bloc .icon-round,
@@ -114,11 +106,11 @@ a:hover {
 .d-bloc .icon-rounded,
 .d-bloc .icon-semi-rounded-a,
 .d-bloc .icon-semi-rounded-b {
-    border-color: rgba(255, 255, 255, .9);
+    border-color: rgb(255, 255, 255, 0.9);
 }
 
 .d-bloc .divider-h span {
-    border-color: rgba(255, 255, 255, .2);
+    border-color: rgb(255, 255, 255, 0.2);
 }
 
 .d-bloc .a-btn,
@@ -135,7 +127,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgb(255, 255, 255, 0.6);
 }
 
 .d-bloc .a-btn:hover,
@@ -152,57 +144,57 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: rgb(255, 255, 255, 1);
 }
 
 .d-bloc .navbar-toggle .icon-bar {
-    background: rgba(255, 255, 255, 1);
+    background: rgb(255, 255, 255, 1);
 }
 
 .d-bloc .btn-wire,
 .d-bloc .btn-wire:hover {
-    color: rgba(255, 255, 255, 1);
-    border-color: rgba(255, 255, 255, 1);
+    color: rgb(255, 255, 255, 1);
+    border-color: rgb(255, 255, 255, 1);
 }
 
 .d-bloc .panel {
-    color: rgba(0, 0, 0, .5);
+    color: rgb(0, 0, 0, 0.5);
 }
 
 .d-bloc .panel button:hover {
-    color: rgba(0, 0, 0, .7);
+    color: rgb(0, 0, 0, 0.7);
 }
 
 .d-bloc .panel icon {
-    border-color: rgba(0, 0, 0, .7);
+    border-color: rgb(0, 0, 0, 0.7);
 }
 
 .d-bloc .panel .divider-h span {
-    border-color: rgba(0, 0, 0, .1);
+    border-color: rgb(0, 0, 0, 0.1);
 }
 
 .d-bloc .panel .a-btn {
-    color: rgba(0, 0, 0, .6);
+    color: rgb(0, 0, 0, 0.6);
 }
 
 .d-bloc .panel .a-btn:hover {
-    color: rgba(0, 0, 0, 1);
+    color: rgb(0, 0, 0, 1);
 }
 
 .d-bloc .panel .btn-wire,
 .d-bloc .panel .btn-wire:hover {
-    color: rgba(0, 0, 0, .7);
-    border-color: rgba(0, 0, 0, .3);
+    color: rgb(0, 0, 0, 0.7);
+    border-color: rgb(0, 0, 0, 0.3);
 }
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    color: rgb(0, 0, 0, 0.5);
 }
 
 .d-bloc .panel button:hover,
 .l-bloc button:hover {
-    color: rgba(0, 0, 0, .7);
+    color: rgb(0, 0, 0, 0.7);
 }
 
 .l-bloc .icon-round,
@@ -210,12 +202,12 @@ a:hover {
 .l-bloc .icon-rounded,
 .l-bloc .icon-semi-rounded-a,
 .l-bloc .icon-semi-rounded-b {
-    border-color: rgba(0, 0, 0, .7);
+    border-color: rgb(0, 0, 0, 0.7);
 }
 
 .d-bloc .panel .divider-h span,
 .l-bloc .divider-h span {
-    border-color: rgba(0, 0, 0, .1);
+    border-color: rgb(0, 0, 0, 0.1);
 }
 
 .d-bloc .panel .a-btn,
@@ -233,7 +225,7 @@ a:hover {
 .l-bloc h5 a,
 .l-bloc h6 a,
 .l-bloc p a {
-    color: rgba(0, 0, 0, .6);
+    color: rgb(0, 0, 0, 0.6);
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -251,19 +243,19 @@ a:hover {
 .l-bloc h5 a:hover,
 .l-bloc h6 a:hover,
 .l-bloc p a:hover {
-    color: rgba(0, 0, 0, 1);
+    color: rgb(0, 0, 0, 1);
 }
 
 .l-bloc .navbar-toggle .icon-bar {
-    color: rgba(0, 0, 0, .6);
+    color: rgb(0, 0, 0, 0.6);
 }
 
 .d-bloc .panel .btn-wire,
 .d-bloc .panel .btn-wire:hover,
 .l-bloc .btn-wire,
 .l-bloc .btn-wire:hover {
-    color: rgba(0, 0, 0, .7);
-    border-color: rgba(0, 0, 0, .3);
+    color: rgb(0, 0, 0, 0.7);
+    border-color: rgb(0, 0, 0, 0.3);
 }
 
 .voffset {
@@ -314,7 +306,7 @@ blockquote {
     display: inline;
 }
 
-.navbar-brand img[src$=svg] {
+.navbar-brand img[src$="svg"] {
     min-width: 100px;
 }
 
@@ -347,15 +339,15 @@ blockquote {
 
 .navbar-toggle {
     margin: 10px 10px 0 0;
-    border: 0px;
+    border: 0;
 }
 
 .navbar-toggle:hover {
-    background: transparent!important;
+    background: transparent !important;
 }
 
 .navbar-toggle .icon-bar {
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgb(0, 0, 0, 0.5);
     width: 26px;
 }
 
@@ -402,7 +394,7 @@ blockquote {
         position: relative;
         width: 100%;
         right: 0;
-        margin-right: 0px;
+        margin-right: 0;
         margin-top: 20px;
     }
     .nav-center.mini-nav .navbar-toggle {
@@ -412,7 +404,7 @@ blockquote {
 }
 
 .nav>li>.dropdown a {
-    background: none!important;
+    background: none !important;
     display: block;
     padding: 14px 15px;
 }
@@ -435,11 +427,11 @@ nav .caret {
 }
 
 .dropdown-menu .dropdown span {
-    border: 4px solid black;
+    border: black solid 4px;
     border-top-color: transparent;
     border-right-color: transparent;
     border-bottom-color: transparent;
-    margin: 6px -5px 0 0!important;
+    margin: 6px -5px 0 0 !important;
     float: right;
 }
 
@@ -465,11 +457,11 @@ nav .caret {
 .btn-d:hover,
 .btn-d:focus {
     color: #FFF;
-    background: rgba(0, 0, 0, .3);
+    background: rgb(0, 0, 0, 0.3);
 }
 
 button {
-    outline: none!important;
+    outline: none !important;
 }
 
 .btn-rd {
@@ -477,22 +469,22 @@ button {
 }
 
 .btn-clean {
-    border: 1px solid rgba(0, 0, 0, .08);
-    border-bottom-color: rgba(0, 0, 0, .1);
-    text-shadow: 0 1px 0 rgba(0, 0, 1, .1);
-    box-shadow: 0 1px 3px rgba(0, 0, 1, .25), inset 0 1px 0 0 rgba(255, 255, 255, .15);
+    border: rgb(0, 0, 0, 0.08) solid 1px;
+    border-bottom-color: rgb(0, 0, 0, 0.1);
+    text-shadow: 0 1px 0 rgb(0, 0, 1, 0.1);
+    box-shadow: 0 1px 3px rgb(0, 0, 1, 0.25), 0 1px 0 0 rgb(255, 255, 255, 0.15) inset;
 }
 
 .icon-md {
-    font-size: 30px!important;
+    font-size: 30px !important;
 }
 
 .icon-lg {
-    font-size: 60px!important;
+    font-size: 60px !important;
 }
 
 .sm-shadow {
-    text-shadow: 0 1px 2px rgba(0, 0, 0, .3);
+    text-shadow: 0 1px 2px rgb(0, 0, 0, 0.3);
 }
 
 .panel-sq,
@@ -524,7 +516,7 @@ button {
     border-color: lawngreen;
     border: red;
     outline: none;
-    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(102 175 233 / 60%);
+    box-shadow: 0 1px 1px rgb(0 0 0 / 8%) inset, 0 0 8px rgb(102 175 233 / 60%);
 }
 
 label {
@@ -539,7 +531,7 @@ label {
     right: 20px;
     opacity: 0;
     z-index: 500;
-    transition: all .3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .scrollToTop span {
@@ -565,19 +557,17 @@ a[data-lightbox]:hover::before {
     height: 50px;
     margin-left: -25px;
     border-radius: 50%;
-    background: rgba(0, 0, 0, .6);
+    background: rgb(0, 0, 0, 0.6);
     color: #FFF;
     font-weight: 100;
     z-index: 1;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
 }
 
 a[data-lightbox]:hover img {
     opacity: 0.6;
-    -webkit-animation-fill-mode: none;
     animation-fill-mode: none;
 }
 
@@ -600,7 +590,7 @@ a[data-lightbox]:hover img {
 .lightbox-caption {
     padding: 20px;
     color: #FFF;
-    background: rgba(0, 0, 0, .5);
+    background: rgb(0, 0, 0, 0.5);
     position: absolute;
     left: 15px;
     right: 15px;
@@ -614,7 +604,7 @@ a[data-lightbox]:hover img {
     top: 20px;
     right: 20px;
     z-index: 20;
-    background: rgba(0, 0, 0, .5);
+    background: rgb(0, 0, 0, 0.5);
     border: none;
     line-height: 30px;
     padding: 0 9px 5px;
@@ -631,9 +621,9 @@ a[data-lightbox]:hover img {
 .next-lightbox,
 .prev-lightbox {
     font-size: 20px;
-    color: rgba(255, 255, 255, .9);
-    background: rgba(0, 0, 0, .5);
-    transition: all .2s ease-in-out;
+    color: rgb(255, 255, 255, 0.9);
+    background: rgb(0, 0, 0, 0.5);
+    transition: all 0.2s ease-in-out;
     position: absolute;
     top: 45%;
     z-index: 1;
@@ -656,7 +646,7 @@ a[data-lightbox]:hover img {
 
 .snapshot-lb .lightbox-caption {
     padding: 0;
-    color: rgba(0, 0, 0, .5);
+    color: rgb(0, 0, 0, 0.5);
     background: none;
 }
 
@@ -672,7 +662,6 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 600;
-    /* color: #575757!important; */
 }
 
 .container {
@@ -713,7 +702,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: #FFFFFF !important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -734,17 +723,16 @@ h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    /* color: #333333!important; */
 }
 
 .med-width-whitespace {
     max-width: 800px;
     margin: auto auto auto auto;
-    box-shadow: 0px 0px 0px #000000;
+    box-shadow: 0 0 0 #000000;
 }
 
 h4 {
-    color: #333333!important;
+    color: #333333 !important;
 }
 
 .icons {
@@ -753,7 +741,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #FFFFFF !important;
     font-size: 15px;
     text-align: center;
 }
@@ -768,17 +756,17 @@ h4 {
 }
 
 .avatar {
-    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 9px rgb(0, 0, 0, 0.3);
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgb(165, 147, 99, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
 .bold-link {
     font-weight: 900;
-    text-decoration: underline!important;
+    text-decoration: underline !important;
 }
 
 .bgc-white {
@@ -789,11 +777,6 @@ h4 {
     background-color: #364577;
 }
 
-
-/* .bgc-atomic-tangerine {
-    background-color: #F3976C;
-} */
-
 .tc-white {
     text-align: center;
     color: yellow;
@@ -801,7 +784,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #0D0D0D!important;
+    color: #0D0D0D !important;
     border: none;
     border-radius: 5px;
     opacity: 1;
@@ -809,8 +792,8 @@ h4 {
 }
 
 .btn-atomic-tangerine:hover {
-    background: #F3976C!important;
-    color: #171717!important;
+    background: #F3976C !important;
+    color: #171717 !important;
     opacity: 0.8;
 }
 
@@ -819,24 +802,24 @@ h4 {
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color: #FFFFFF !important;
 }
 
 .ltc-white:hover {
-    color: #cccccc!important;
+    color: #cccccc !important;
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #F3976C !important;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color: #c27956 !important;
 }
 
 .icon-dark-slate-blue {
-    color: #364577!important;
-    border-color: #364577!important;
+    color: #364577 !important;
+    border-color: #364577 !important;
 }
 
 .bg-dots-bg {
@@ -871,20 +854,20 @@ h4 {
 
 @media (max-width: 992px) and (min-width: 768px) {
     .navbar .nav {
-        max-width: 80%
+        max-width: 80%;
     }
     .nav-center.navbar .nav {
-        max-width: 100%
+        max-width: 100%;
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (width) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (width) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -902,10 +885,6 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -914,8 +893,6 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
 }
 
@@ -932,16 +909,16 @@ h4 {
     h6,
     p,
     #disqus_thread {
-        padding-left: 10px!important;
-        padding-right: 10px!important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
     }
     .b-parallax {
         background-attachment: scroll;
     }
     .navbar .nav {
         padding-top: 0;
-        border-top: 1px solid rgba(0, 0, 0, .2);
-        float: none!important;
+        border-top: 1px solid rgb(0, 0, 0, 0.2);
+        float: none !important;
     }
     .navbar.row {
         margin-left: 0;
@@ -950,33 +927,31 @@ h4 {
     .site-navigation {
         position: inherit;
         transform: none;
-        -webkit-transform: none;
-        -ms-transform: none;
     }
     .nav>li {
         margin-top: 0;
-        border-bottom: 1px solid rgba(0, 0, 0, .1);
-        background: rgba(0, 0, 0, .05);
+        border-bottom: 1px solid rgb(0, 0, 0, 0.1);
+        background: rgb(0, 0, 0, 0.05);
         text-align: left;
         padding-left: 15px;
         width: 100%;
     }
     .nav>li:hover {
-        background: rgba(0, 0, 0, .08);
+        background: rgb(0, 0, 0, 0.08);
     }
     .dropdown .dropdown a .caret {
         float: none;
-        margin: 5px 0 0 10px!important;
-        border: 4px solid black;
+        margin: 5px 0 0 10px !important;
+        border: black solid 4px;
         border-bottom-color: transparent;
         border-right-color: transparent;
         border-left-color: transparent;
     }
     #hero-bloc .navbar .nav {
-        background: rgba(0, 0, 0, .8);
+        background: rgb(0, 0, 0, 0.8);
     }
     #hero-bloc .navbar .nav a {
-        color: rgba(255, 255, 255, .6);
+        color: rgb(255, 255, 255, 0.6);
     }
     .hero {
         padding: 50px 0;
@@ -988,7 +963,6 @@ h4 {
     .navbar-collapse {
         padding: 0;
         overflow-x: hidden;
-        -webkit-box-shadow: none;
         box-shadow: none;
     }
     .navbar-brand img {
