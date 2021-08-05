@@ -35,9 +35,18 @@ a:hover {
     position: relative;
 }
 
+
+/* 
+main {
+    display: flex;
+    margin-right: 1rem;
+} */
+
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
+    max-width: 100%;
+    margin: auto;
 }
 
 .bloc-lg {
@@ -84,7 +93,6 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
     background-size: 280px 280px;
 }
 
@@ -266,6 +274,12 @@ a:hover {
     margin-top: 80px;
 }
 
+.modif {
+    background: #f3976c;
+    width: 80%;
+    margin: auto;
+}
+
 .row-no-gutters {
     margin-right: 0;
     margin-left: 0;
@@ -438,6 +452,8 @@ nav .caret {
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
+    color: black;
+    font-weight: 700;
 }
 
 .mg-lg {
@@ -650,9 +666,13 @@ a[data-lightbox]:hover img {
     background: none;
 }
 
+h3 {
+    font-weight: 700;
+    line-height: 1.5em;
+}
+
 h1,
 h2,
-h3,
 h4,
 h5,
 h6,
@@ -693,6 +713,9 @@ p {
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
+    background: #f3976c;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .h1 {
@@ -723,6 +746,7 @@ h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
+    color: black;
 }
 
 .med-width-whitespace {
@@ -753,6 +777,7 @@ h4 {
 .portfolio-row {
     margin-bottom: 44px;
     margin-top: 50px;
+    background: white;
 }
 
 .avatar {
@@ -760,7 +785,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgb(165, 147, 99, 0.7);
+    background-color: #f3976c;
     padding: 40px 40px 40px 40px;
 }
 
@@ -773,32 +798,28 @@ h4 {
     background-color: #FFFFFF;
 }
 
-.bgc-dark-slate-blue {
-    background-color: #364577;
-}
-
 .tc-white {
     text-align: center;
-    color: yellow;
+    color: black;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #0D0D0D !important;
+    background: #0D0D0D !important;
+    color: #F3976C;
     border: none;
-    border-radius: 5px;
+    border-radius: 30px;
     opacity: 1;
     cursor: pointer;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #F3976C !important;
-    color: #171717 !important;
+    background: #0D0D0D !important;
+    color: #645f5f !important;
     opacity: 0.8;
 }
 
 .col-sm-6>p {
-    color: black;
+    color: #575757!important;
 }
 
 .ltc-white {
@@ -823,7 +844,8 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background: #f3976c;
+    padding: 0;
 }
 
 .bg-lines-h2-bg {
