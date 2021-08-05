@@ -47,6 +47,7 @@ main {
     padding-right: 0;
     max-width: 100%;
     margin: auto;
+    color: black;
 }
 
 .bloc-lg {
@@ -452,7 +453,7 @@ nav .caret {
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
-    color: black;
+    color: crimson;
     font-weight: 700;
 }
 
