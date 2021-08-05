@@ -765,7 +765,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF !important;
+    color: #030303 !important;
     font-size: 15px;
     text-align: center;
 }
@@ -823,7 +823,8 @@ h4 {
 }
 
 .ltc-white {
-    color: #FFFFFF !important;
+    color: #020202 !important;
+    font-size: 17px;
 }
 
 .ltc-white:hover {
