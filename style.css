@@ -17,6 +17,18 @@ a:hover {
     cursor: pointer;
 }
 
+.bloc-inner-texte {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 5rem;
+    width: 30rem;
+}
+
+.bloc-inner-texte .inner-texte {
+    margin-left: 2rem;
+}
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
