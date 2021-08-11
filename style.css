@@ -25,6 +25,10 @@ a:hover {
     width: 30rem;
 }
 
+.bloc-inner-texte>i {
+    font-size: 5rem;
+}
+
 .bloc-inner-texte .inner-texte {
     margin-left: 2rem;
 }
